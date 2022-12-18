@@ -8,7 +8,7 @@ function Header(){
     const [menuOpen, setMenuOpen] = useState(false)
     const handleChangeMenuOpen = () => setMenuOpen(!menuOpen)
 
-    return<div id="header" className="flex flex-row justify-between lg:items-center p-6 lg:p-12">
+    return<div id="header" className="flex flex-row justify-between p-10">
         <div className="">
             <img src={Logo} className="mb-10 w-44 lg:w-64"></img>
         </div>
