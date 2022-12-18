@@ -1,7 +1,7 @@
 import Logo from "../images/Logo.svg";
 import { FaArrowUp } from "react-icons/fa";
-import { AiOutlineInstagram, AiOutlineYoutube, AiOutlineMail } from "react-icons/Ai"
-import{ FiTwitter } from "react-icons/Fi"
+import { AiOutlineInstagram, AiOutlineYoutube, AiOutlineMail } from "react-icons/ai"
+import{ FiTwitter } from "react-icons/fi"
 
 function Footer(){ 
     return<div className="bg-neutral-900 py-5">
