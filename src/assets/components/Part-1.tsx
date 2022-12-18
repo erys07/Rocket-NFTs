@@ -11,7 +11,7 @@ import Artista8 from "../images/galeria-8.png"
 
 function Part1(){
         return <div>
-            <div className="grid grid-row-3 lg:grid-cols-3 p-0 lg:p-20">
+            <div className="flex flex-col-reverse lg:grid lg:grid-cols-3 p-0 lg:p-20">
             <div>
                 <div className="flex flex-col items-center">
                     <div className="w-6/12">
@@ -27,12 +27,12 @@ function Part1(){
                 </div>
             </div>
             <div className="flex justify-center">
-                <div className="w-7/12">
+                <div className="w-7/12 mb-10 lg:mb-0 text-center lg:text-left lg:ml-10">
                     <a className="text-white font-semibold text-5xl">Descubra a verdadeira arte digital e colecione diversas <a className="text-red-400">NFTs</a></a>   
                 </div>
             </div>
-            <div className="flex items-center justify-center mt-10">
-                <img src={Badge} className="w-56 lg:w-80 h-auto mb-10 lg:mb-0"></img>
+            <div className="flex items-center justify-center">
+                <img src={Badge} className="w-48 lg:w-72 h-auto mb-10 lg:mb-0"></img>
             </div>
             </div>
             <div className="flex items-center justify-center mb-1">
