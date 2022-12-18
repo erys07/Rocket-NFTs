@@ -6,7 +6,7 @@ import Part4 from "../assets/components/Part-4"
 import Footer from "../assets/components/Footer"
 
 function Main(){
-    return <div className="bg-[url('../assets/images/background.png')] bg-contain  h-11/12">
+    return <div className="bg-[url('../assets/images/background.png')] bg-fixed bg-center h-11/12">
             <Header></Header>
             <Part1></Part1>
             <Part2></Part2>

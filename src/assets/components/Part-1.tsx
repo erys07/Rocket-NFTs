@@ -32,19 +32,19 @@ function Part1(){
                 </div>
             </div>
             <div className="flex items-center justify-center mt-10">
-                <img src={Badge} className="w-56 lg:w-80 h-auto mb-14 lg:mb-0"></img>
+                <img src={Badge} className="w-56 lg:w-80 h-auto mb-10 lg:mb-0"></img>
             </div>
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center mb-1">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 px-10 lg:px-48">
-                <img src={Artista1} className="border border-white"/>
-                <img src={Artista2} className="border border-white"/>
-                <img src={Artista3} className="border border-white"/>
-                <img src={Artista4} className="border border-white"/>
-                <img src={Artista5} className="border border-white"/>
-                <img src={Artista6} className="border border-white"/>
-                <img src={Artista7} className="border border-white"/>
-                <img src={Artista8} className="border border-white"/>
+                <img src={Artista1} className="shadow-md shadow-gray-300 hover:shadow-sm hover:shadow-white"/>
+                <img src={Artista2} className="shadow-md shadow-gray-300 hover:shadow-sm hover:shadow-white"/>
+                <img src={Artista3} className="shadow-md shadow-gray-300 hover:shadow-sm hover:shadow-white"/>
+                <img src={Artista4} className="shadow-md shadow-gray-300 hover:shadow-sm hover:shadow-white"/>
+                <img src={Artista5} className="shadow-md shadow-gray-300 hover:shadow-sm hover:shadow-white"/>
+                <img src={Artista6} className="shadow-md shadow-gray-300 hover:shadow-sm hover:shadow-white"/>
+                <img src={Artista7} className="shadow-md shadow-gray-300 hover:shadow-sm hover:shadow-white"/>
+                <img src={Artista8} className="shadow-md shadow-gray-300 hover:shadow-sm hover:shadow-white"/>
             </div>
             </div>
         </div>
