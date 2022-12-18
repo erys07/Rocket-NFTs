@@ -15,7 +15,7 @@ function Part1(){
             <div>
                 <div className="flex flex-col items-center">
                     <div className="w-6/12">
-                        <a className="text-white">Mercado digital para colecionáveis em criptos e tokens não fungível(NFT). Compre, vensa e descubra ativos digitais exclusivos para você.</a>
+                        <a className="text-white">Mercado digital para colecionáveis em criptos e tokens não fungível(NFT). Compre, venda e descubra ativos digitais exclusivos para você.</a>
                     </div>
                     <div className="flex flex-row py-10">
                         <img src={Group}></img>
