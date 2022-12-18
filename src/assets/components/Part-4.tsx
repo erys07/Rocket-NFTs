@@ -35,10 +35,10 @@ function Part4(){
                 <Artista image={Artista6} name="Diego F." comment="20"/>
             </div>
         </div>
-        <div className="flex flex-row items-center justify-center space-x-3 py-5">
+        <a href="/#" className="flex flex-row items-center justify-center space-x-3 py-5">
             <a className="text-gray-300 font-semibold">Ver todos os artistas</a>
             <a className="text-orange-500"><ImArrowUpRight2/></a>
-        </div>
+        </a>
     </div>
 }
 
