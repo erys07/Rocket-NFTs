@@ -1,4 +1,4 @@
-import Logo from "../images/Logo.svg";
+import Logo from "../images/logo.svg";
 import { FaArrowUp } from "react-icons/fa";
 import { AiOutlineInstagram, AiOutlineYoutube, AiOutlineMail } from "react-icons/ai"
 import{ FiTwitter } from "react-icons/fi"
